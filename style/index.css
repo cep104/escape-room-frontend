@@ -1,0 +1,20 @@
+body {
+  background-color: #343022;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  font-family: "Lexend Peta", sans-serif;
+  background-image: url(../images/backgroundimg-index.jpg);
+  background-repeat: no-repeat;
+  height: 780px;
+  position: relative;
+  overflow: hidden;
+}
+
+#stalker {
+  position: absolute;
+  bottom: 0;
+  left: -70px;
+}
