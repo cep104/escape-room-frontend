@@ -9,7 +9,7 @@
 body {
   background-color: #343022;
   font-family: "another_danger_-_demoregular";
-  color: red;
+  color: black;
 }
 
 #wrapper {
@@ -24,13 +24,43 @@ body {
 
 #stalker {
   position: absolute;
-  bottom: -25px;
+  bottom: -120px;
   left: -70px;
 }
 
-h1 {
-  background-color: black;
+h2 {
+  background-color: #ce2527;
   display: inline-block;
   letter-spacing: 2px;
-  padding-left: 20px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-right: 10%;
+  padding-left: 2%;
+  margin-left: 1%;
+  border: black solid;
+  font-size: 2.2em;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+#sign {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow-x: visible;
+}
+#resume {
+  z-index: 5;
+  bottom: 75%;
+  right: 2%;
+  position: absolute;
+}
+
+#post {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 10%;
 }
