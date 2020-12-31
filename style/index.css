@@ -1,7 +1,7 @@
 @font-face {
   font-family: "another_danger_-_demoregular";
-  src: url("another_danger_-_demo.woff2") format("woff2"),
-    url("another_danger_-_demo.woff") format("woff");
+  src: url("another_danger_-_demo-webfont.woff2") format("woff2"),
+    url("another_danger_-_demo-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -9,10 +9,6 @@
 body {
   background-color: #343022;
   font-family: "another_danger_-_demoregular";
-  src: url("another_danger_-_demo.woff2") format("woff2"),
-    url("another_danger_-_demo.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
   color: red;
 }
 
@@ -35,4 +31,6 @@ body {
 h1 {
   background-color: black;
   display: inline-block;
+  letter-spacing: 2px;
+  padding-left: 20px;
 }
