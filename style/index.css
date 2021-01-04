@@ -17,7 +17,6 @@ body {
   max-width: 1280px;
   background-image: url(../images/backgroundimg-index.jpg);
   background-repeat: no-repeat;
-  height: 780px;
   position: relative;
   overflow: hidden;
 }
@@ -58,9 +57,43 @@ main {
   position: absolute;
 }
 
+#about {
+  z-index: 5;
+  bottom: 50%;
+  right: -1%;
+  position: absolute;
+}
+
+#projects {
+  z-index: 5;
+  bottom: 30%;
+  right: 0%;
+  position: absolute;
+}
+
+#blog {
+  z-index: 5;
+  bottom: 5%;
+  right: 2%;
+  position: absolute;
+}
+
 #post {
   position: absolute;
   z-index: 1;
   bottom: 0;
   right: 10%;
+}
+
+footer {
+  background-color: #ce2527;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+footer p {
+  margin: 0;
 }

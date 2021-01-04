@@ -1,2 +1,12 @@
 let resume = document.querySelector("#resume");
-resume.addEventListener("click", function () {});
+let h2 = document.querySelector("h2");
+let toggle = true;
+resume.addEventListener("mouseover", function () {
+  if (toggle === true) {
+    resume.style.transform = "rotate(7deg)";
+    toggle = false;
+  } else {
+    resume.style.transform = "rotate(-7deg)";
+    toggle = true;
+  }
+});
