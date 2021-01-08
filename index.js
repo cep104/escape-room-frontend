@@ -23,6 +23,7 @@ let toggle = true;
 
 let rotate = function (plank) {
   plank.addEventListener("mouseover", function () {
+    plank.style.cursor = "pointer";
     if (toggle === true) {
       plank.style.transform = "rotate(5deg)";
       toggle = false;
