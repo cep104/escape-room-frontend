@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "another_danger_-_demoregular";
+  src: url("another_danger_-_demo-webfont.woff2") format("woff2"),
+    url("another_danger_-_demo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   height: 100%;
   /* max-height: 600px; */
@@ -24,6 +32,9 @@ html {
 h1 {
   background-color: rgb(53, 23, 23);
   color: aliceblue;
+  font-family: "another_danger_-_demoregular";
+  padding: 2%;
+  display: inline-block;
 }
 #dock img {
   width: 100%;
