@@ -20,3 +20,18 @@ html {
     background-position: -900px 95%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
   }
 }
+
+h1 {
+  background-color: rgb(53, 23, 23);
+  color: aliceblue;
+}
+#dock img {
+  width: 100%;
+  height: auto;
+}
+#dock {
+  position: fixed;
+  bottom: 0;
+  margin-left: 10%;
+  width: 70%;
+}
